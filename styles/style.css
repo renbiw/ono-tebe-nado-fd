@@ -1,1 +1,43 @@
-/* место для вашего кода */
+.header {
+
+}
+
+.header__menu {
+
+}
+
+.header__menu__list {
+
+}
+
+.header__menu__item {
+
+}
+
+.link-active {
+
+}
+
+.header__logo {
+
+}
+
+.header__logo__image {
+
+}
+
+.address {
+
+}
+
+.address__header {
+
+}
+
+.cover {
+  background-image: url('./images/cover.jpg');
+}
+
+.cover__title {
+
+}
