@@ -1,43 +1,140 @@
 .header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 93px 50px 95px;
 
 }
 
 .header__menu {
-
+  
 }
 
-.header__menu__list {
-
+.header__links-list {
+  display: flex;
+  gap: 34px;
+  list-style: circle;
 }
 
-.header__menu__item {
-
+.header__links-list-item {
 }
 
-.link-active {
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
 
+.header__link {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.header__link_active {
+  text-decoration: none;
 }
 
 .header__logo {
-
+  display: block;
+  width: 148px;
 }
 
-.header__logo__image {
-
+.header__logo-image {
+  width: 100%;
 }
 
 .address {
-
+  font-style: normal; 
 }
 
-.address__header {
+.header__address {
+  max-width: 200px;
+  justify-self: end;
+}
 
+.link-style {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .cover {
-  background-image: url('./images/cover.jpg');
+  z-index: 1;
+  background-image: url('../images/cover.jpg');
+  min-height: 757px;
+  position: relative;
+  background-size: cover;
+  text-transform: uppercase;
+}
+
+.overlay {
+  z-index: -1;
+  position: absolute;
+  background-color: rgb(0 0 0/ 60%);
+  height: 100%;
+  width: 100%;
 }
 
 .cover__title {
+  color: #fff;
+  padding: 165px 50px 118px;
+  font-size: 100px;
+}
 
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.cover__description {
+  color: #fff;
+  /* не уверена, надо подумать*/
+  display: flex;
+  justify-content: space-around;
+}
+
+.cover__description-text {
+  word-spacing: 8px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: lighter;
+}
+
+.bet-button {
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.lots {
+  margin-top: 180px;
+  margin-bottom: 120px;
+}
+
+.card_type_film {
+  background-image: url('../images/card-lot-01.jpg');
+
+}
+
+.card_type_book {
+  background-image: url('../images/card-lot-02.jpg');
+}
+
+.card_type_picture {
+  background-image: url('../images/card-lot-03.jpg');
+}
+
+.about {
+  margin-bottom: 180px;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
 }
