@@ -115,6 +115,31 @@
 .lots {
   margin-top: 180px;
   margin-bottom: 120px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  list-style-type: none;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
+}
+
+.card-link {
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .card_type_film {
@@ -132,6 +157,27 @@
 
 .about {
   margin-bottom: 180px;
+  display: grid;
+  grid-template-columns: 334px auto;
+  padding: 0 24px;
+}
+
+.about__logo {
+  background-color: #000;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+  align-self: center;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .footer__social-icon {
