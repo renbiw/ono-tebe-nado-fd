@@ -16,12 +16,6 @@
   list-style-type: none;
 }
 
-.header__link {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
-}
-
 .header__link_active {
   text-decoration: none;
 }
@@ -46,6 +40,7 @@
 }
 
 .link-style {
+  text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
@@ -157,6 +152,7 @@
 
 .card__title {
   font-size: 22px;
+  line-height: 26px;
   text-decoration: underline;
   text-transform: uppercase;
 }
@@ -198,7 +194,7 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  margin-bottom: 180px;
+  margin-bottom: 178px;
   padding: 35px 24px 0;
 }
 
@@ -231,10 +227,11 @@
 
 .about__text {
   font-size: 20px;
+  line-height: 24px;
 }
 
 .first-paragraph {
-  padding-bottom: 27px;
+  padding-bottom: 24px;
 }
 
 .footer {
@@ -248,12 +245,6 @@
   justify-self: center;
   text-align: center;
   list-style-type: none;
-}
-
-.footer__menu-link {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
